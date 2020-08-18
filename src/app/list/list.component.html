@@ -1,0 +1,7 @@
+<h1>Sites</h1>
+
+<ul *ngIf="sites">
+    <li *ngFor="let site of sites">
+        <p class="url">{{ site._url }}</p>
+    </li>
+</ul>
